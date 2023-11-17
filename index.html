@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="2 links" content="link1, link2">                                    
+</head>
+  <title>2 links</title>
+ 
+ <body>
+  <a class="yu" href="#uno">first link </a>
+  <a class="we" href="#dos">second link </a>
+           <div id="uno">Div 1 here</div>
+           <div id="dos">Div 2 here</div>
+
+
+ 
+</body>
+
+<style>
+   a.yu:link{
+   background-color:#a1b197;
+   } 
+   a.yu:visited{
+   background-color:green;
+   }
+   a.yu:hover{
+   background-color:yellow;
+   }
+   a.yu:active{
+   background-color:black;
+   }
+      a.we:link{
+      background-color:purple;
+      }  
+
+      a.we:visited{
+      background-color:red;
+      }
+      a.we:hover{
+      background-color:green;
+      }
+      a.we:active{
+      background-color:skyblue;
+      }
+      a.we:link{
+      background-color:black;
+      }   
+	  div{
+	  margin-top:20px;
+	  border:3px solid purple;
+	  width: 100px;
+	  padding:10px;
+	  }
+	  
+	  #uno:target{
+	  background-color:black;
+	  color:white;
+	  }
+	  #dos:target{
+	  border:10px dotted green;
+	  }	  
+</style>
+</html>
+
+
+
